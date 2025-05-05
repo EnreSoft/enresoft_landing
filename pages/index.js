@@ -3,6 +3,7 @@ import CounterUp from "../components/elements/Counterup"
 import TextEffect from "../components/elements/TextEffect"
 import Layout from "../components/layout/Layout"
 import Slider1 from "../components/slider/Slider1"
+import Image from "next/image";
 
 function Home() {
     const [inViewport, setInViewport] = useState(false);
@@ -182,7 +183,560 @@ function Home() {
                         </div>
                     </div>
                 </section>
+{/*  */}
+<section className="py-20 bg-blueGray-50" id="projects">
+          <div className="container px-4 mx-auto">
+            <div className="mb-12 text-center">
+              <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-6 font-bold font-heading wow animate__animated animate__fadeIn">
+                Our <span className="text-blue-500">Vision</span>
+              </h2>
+            </div>
+          </div>
+        </section>
+        {/* Vision */}
+        <section className="relative -mt-24 pt-24">
+          <div className="container">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 mt-20 py-12 border-t border-blueGray-100">
+              {/* Photo (<img> ) */}
+              <div
+                className="w-full lg:w-1/2 flex justify-center"
+                // style={{ marginBottom: "20px" }}
+              >
+               <Image
+                       src="https://images.unsplash.com/photo-1462556791646-c201b8241a94?q=80&w=2896&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                       alt="Img"
+                       style={{ maxWidth: "75%", height: "auto" }}
+                       width={600}
+                       height={400}
+                     />
+                {/* <img
+                  src="/assets/imgs/placeholders/vision.jpg"
+                  alt="Photo"
+                  className="rounded-md shadow-md max-w-full h-auto"
+                  // width={600}
+                  // height={400}
+                  style={{ maxWidth: "75%", height: "auto" }}
+                /> */}
+              </div>
+              <div className="w-full lg:w-1/2 text-center lg:text-left px-4">
+                <h3
+                  className="text-xl font-bold font-heading mb-2"
+                //   style={{ color: 'rgb(96, 165, 250)' }}
+                  // style={blueColor}
+                >
+                  Our Vision
+                </h3>
+                <br/>
+                <p
+                  className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn"
+                  data-wow-delay=".2s"
+                >
+                  We want to change the way businesses work by using technology
+                  that makes tasks simpler and more efficient. Our vision is to
+                  be a trusted leader in software and technology, delivering
+                  solutions for a wide range of industries such as logistics,
+                  healthcare, finance, retail, education, manufacturing, and
+                  entertainment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Mission */}
+        <section className="py-20 bg-blueGray-50" id="projects">
+          <div className="container px-4 mx-auto">
+            <div className="mb-12 text-center">
+              <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-6 font-bold font-heading wow animate__animated animate__fadeIn">
+                Our <span className="text-blue-500">Mission</span>
+              </h2>
+            </div>
+          </div>
+        </section>
+        <section className="relative -mt-24 pt-24">
+          <div className="container">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 mt-20 py-12 border-t border-blueGray-100">
+              {/*  */}
+              <div className="w-full lg:w-1/2 text-center lg:text-left px-4">
+                <h3
+                  className="text-xl font-bold font-heading mb-2"
+                  // style={blueColor}
+                >
+                  Our Mission
+                </h3>
+                <br/>
+                <p
+                  className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn"
+                  data-wow-delay=".2s"
+                >
+                    Our mission is to help businesses and startups succeed by providing reliable, easy-to-use software and digital solutions. We are dedicated to: Simple Innovation through modern technologies, Teamwork and Partnership with clients and our team, Quality Work focused on real results, and Exploring New Ideas to drive progress across industries.
+                  {/* Our mission is to help businesses and startups succeed by
+                  providing reliable, easy-to-use software and digital
+                  solutions. We are dedicated to:
+                  <br />
+                  <strong>Simple Innovation:</strong> Building practical
+                  software and tools using modern technology like data science
+                  and machine learning.
+                  <br />
+                  <strong>Teamwork and Partnership:</strong> Working closely
+                  with our clients and our team of over 20 professionals to
+                  create solutions that truly meet their needs.
+                  <br />
+                  <strong>Quality Work:</strong> Ensuring that every project is
+                  crafted with care, accuracy, and a focus on real results.
+                  <br />
+                  <strong>Exploring New Ideas:</strong> Constantly seeking new
+                  opportunities and supporting innovative projects that drive
+                  progress in many industries.
+                  <br />
+                  <br />
+                  At Enresoft, we believe in turning ideas into solutions that
+                  help businesses grow and succeed. */}
+                </p>
+              </div>
+              <div
+                className="w-full lg:w-1/2 flex justify-center"
+                // style={{ marginBottom: "20px" }}
+              >
+                {/* <img
+                  src="/assets/imgs/placeholders/img-17.jpg"
+                  alt="Photo"
+                  className="rounded-md shadow-md max-w-full h-auto"
+                  // width={600}
+                  // height={400}
+                  style={{ maxWidth: "100%", height: "auto" }}
+                /> */}
+                <Image
+                       src="https://media.istockphoto.com/id/2165600019/pl/zdj%C4%99cie/%C5%BC%C3%B3%C5%82ta-kula-w-niebieskim-labiryncie.jpg?s=1024x1024&w=is&k=20&c=IasuWXii10ySX9-611Q6AQsUT8kVK3secA7yq7OkzRk="
+                       alt="Img"
+                       style={{ maxWidth: "100%", height: "auto" }}
+                       width={600}
+                       height={400}
+                     />
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*  */}
+        {/*  */}
+        <section className="py-20 bg-blueGray-50" id="projects">
+          <div className="container px-4 mx-auto">
+            <div className="mb-12 text-center">
+              <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-6 font-bold font-heading wow animate__animated animate__fadeIn">
+                Our <span className="text-blue-500">Projects</span>
+              </h2>
+            </div>
+          </div>
+        </section>
 
+        <section className="relative -mt-24 pt-24">
+          <div className="container">
+            <div className="flex flex-col lg:flex-row  lg:items-start gap-8 mt-20 py-12 border-t border-blueGray-100">
+              {/* Photo (<img> ) */}
+              <div
+                className="w-full lg:w-1/2 flex justify-center"
+                // style={{ marginBottom: "20px" }}
+              >
+                {/* <div>
+                  <img
+                    src="/assets/imgs/placeholders/img-16.jpg"
+                    alt="Photo"
+                    className="rounded-md shadow-md max-w-full h-auto"
+                    // width={600}
+                    // height={400}
+                    style={{ maxWidth: "100%", height: "auto" }}
+                  />
+                </div> */}
+
+                {/* <img
+                  src="/assets/imgs/placeholders/warehouse.jpg"
+                  alt="Photo"
+                  className="rounded-md shadow-md max-w-full h-auto"
+                  // width={600}
+                  // height={400}
+                  style={{ maxWidth: "75%", height: "auto" }}
+                /> */}
+
+                <Image
+                       src="https://media.istockphoto.com/id/515783472/pl/zdj%C4%99cie/w%C3%B3zek-wid%C5%82owy-i-magazyn.jpg?s=1024x1024&w=is&k=20&c=QoTpJlrORVSm_gw1kpR6s3mt4OqkxbE3TxbA7ERDek0="
+                       alt="Img"
+                       style={{ maxWidth: "100%", height: "auto" }}
+                       width={600}
+                       height={400}
+                     />
+              </div>
+              <div className="w-full lg:w-1/2 text-center lg:text-left px-4">
+                <h3
+                 className="text-xl font-bold font-heading mb-2"
+  //style={{ color: 'rgb(96, 165, 250)' }}
+                
+                  // style={blueColor}
+                >
+                  Enretag – The Comprehensive Warehouse Management Solution
+                </h3>
+                <br/>
+                <div className="wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+  <p className="text-blueGray-400 leading-relaxed">
+    Enretag is a powerful all-in-one warehouse management system built for
+    e-commerce sellers. It simplifies operations, reduces costs, and helps
+    you scale efficiently with smart features and automation.
+  </p>
+  <br />
+  <h4 className="text-lg font-semibold font-heading mb-2"  
+  style={{ color: 'rgb(96, 165, 250)' }}>
+    Key Features:
+    
+  </h4>
+<br/>
+  {/* Custom styles for blue triangle bullets */}
+  <style jsx>{`
+    .custom-list li {
+      position: relative;
+      padding-left: 1.5rem;
+    }
+    .custom-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.5rem;
+      width: 0;
+      height: 0;
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-left: 10px solid #3B82F6; /* Tailwind blue-500 */
+    }
+  `}</style>
+
+  <ul className="custom-list space-y-2 text-blueGray-400 leading-relaxed">
+    <li>Real-Time Inventory Management</li>
+    <li>Advanced Asset Tracking & Valuation</li>
+    <li>Automated Invoicing</li>
+    <li>Expert Palletization Support</li>
+    <li>Smart Dashboard & Reporting</li>
+  </ul>
+  <br/>
+
+  <p className="text-blueGray-400 leading-relaxed mt-4">
+    With Enretag, boost your warehouse efficiency, minimize errors, and
+    focus on growing your business.
+  </p>
+</div>
+
+                {/* <p
+                  className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn"
+                  data-wow-delay=".2s"
+                >
+                  Enretag is our all-in-one warehouse management system designed
+                  specifically for e-commerce sellers. By streamlining every
+                  facet of warehouse operations, Enretag empowers businesses to
+                  optimize their inventory management, asset tracking, and
+                  overall operational efficiency. With a suite of powerful
+                  features, this solution addresses the complex challenges of
+                  modern warehousing and logistics.
+                </p>
+                <br />
+                <h4 className="text-lg font-semibold font-heading mb-2">
+                  Key Features & Benefits:
+                </h4>
+                <ul className="list-none space-y-2 text-blueGray-400 leading-relaxed">
+                  <li>Real-Time Inventory Management</li>
+                  <li>Detailed Asset Tracking & Valuation</li>
+                  <li>Automated Invoicing Process</li>
+                  <li>Expert Palletization Guidance</li>
+                  <li>Intuitive Dashboard & Advanced Reporting</li>
+                </ul>
+                <p className="text-blueGray-400 leading-relaxed mt-4">
+                  Enretag is engineered to streamline your supply chain, reduce
+                  operational costs, and boost productivity. By integrating this
+                  solution into your business, you can focus on scaling your
+                  operations while maintaining a high standard of accuracy and
+                  efficiency in your warehousing processes.
+                </p> */}
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Enreship */}
+        <section className="relative -mt-24 pt-24">
+          <div className="container">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 mt-20 py-12 border-t border-blueGray-100">
+              {/* Tekst (przeniesiony na początek) */}
+              <div className="w-full lg:w-1/2 text-center lg:text-left px-4">
+                <h3
+                 className="text-xl font-bold font-heading mb-2"
+//   style={{ color: 'rgb(96, 165, 250)' }}
+                //   className="text-xl font-bold font-heading mb-2"
+                  // style={blueColor}
+                >
+                  Enreship – The Robust Shipping and Order Integration Platform
+                </h3>
+                <br/>
+                <div className="wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+  <p className="text-blueGray-400 leading-relaxed">
+    Enreship is a smart shipping integration platform built for e-commerce
+    sellers. It connects your storefronts to shipping carriers, making order
+    fulfillment fast, reliable, and effortless.
+  </p>
+  <br />
+  <h4 className="text-lg font-semibold font-heading mb-2" style={{ color: 'rgb(96, 165, 250)' }}>
+    Key Features:
+    
+  </h4>
+<br/>
+  {/* Custom styles for blue triangle bullets */}
+  <style jsx>{`
+    .custom-list li {
+      position: relative;
+      padding-left: 1.5rem;
+    }
+    .custom-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.5rem;
+      width: 0;
+      height: 0;
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-left: 10px solid #3B82F6; /* Tailwind blue-500 */
+    }
+  `}</style>
+
+  <ul className="custom-list space-y-2 text-blueGray-400 leading-relaxed">
+    <li>Real-Time Sales & Inventory Monitoring</li>
+    <li>Automated Shipping Label Creation</li>
+    <li>Live Carrier Integration & Tracking</li>
+    <li>Streamlined Order Fulfillment</li>
+  </ul>
+  <br/>
+
+  <p className="text-blueGray-400 leading-relaxed mt-4">
+    Enreship simplifies your logistics, reduces manual work, and lets you
+    focus on scaling your business and delighting customers.
+  </p>
+</div>
+
+                {/* <p
+                  className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn"
+                  data-wow-delay=".2s"
+                >
+                  Enreship is an advanced integration platform crafted for
+                  e-commerce sellers who need to simplify and enhance their
+                  shipping and order fulfillment processes. Recognizing the
+                  intricacies of modern logistics, Enreship bridges the gap
+                  between online storefronts and shipping carriers, ensuring
+                  that every order is processed and delivered with precision.
+                </p>
+                <br />
+                <h4 className="text-lg font-semibold font-heading mb-2">
+                  Key Features & Benefits:
+                </h4>
+                <ul className="list-none list-inside text-blueGray-400 leading-relaxed">
+                  <li>Comprehensive Sales and Stock Monitoring</li>
+                  <li>Automated Shipping Label Generation</li>
+                  <li>Seamless Carrier Integration & Real-Time Tracking</li>
+                  <li>Enhanced Order Fulfillment</li>
+                </ul>
+                <p className="text-blueGray-400 leading-relaxed mt-4">
+                  Enreship is designed to take the complexity out of logistics,
+                  enabling you to concentrate on growing your business and
+                  nurturing customer relationships. With its robust features and
+                  seamless integration capabilities, Enreship transforms your
+                  shipping operations into a streamlined, efficient process that
+                  scales with your business needs.
+                </p> */}
+              </div>
+              <div
+                className="w-full lg:w-1/2 flex justify-center"
+                // style={{ marginBottom: "20px" }}
+              >
+                <Image
+                       src="https://plus.unsplash.com/premium_photo-1744376824164-ca90487c574d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                       alt="Img"
+                       style={{ maxWidth: "100%", height: "auto" }}
+                       width={500}
+                       height={250}
+                     />
+                {/* <img
+                  src="/assets/imgs/placeholders/img-19.jpg"
+                  alt="Photo"
+                  className="rounded-md shadow-md max-w-full h-auto"
+                  // width={600}
+                  // height={400}
+                  style={{ maxWidth: "100%", height: "auto" }}
+                /> */}
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*  weddy*/}
+        <section className="relative -mt-24 pt-24">
+          <div className="container">
+            <div className="flex flex-col lg:flex-row lg:items-start lg:items-start gap-8 mt-20 py-12 border-t border-blueGray-100">
+              {/* Photo (<img> ) */}
+              <div
+                className="w-full lg:w-1/2 flex justify-center lg:flex-grow"
+                // style={{ marginBottom: "20px" }}
+              >
+                {/* <div>
+                  <img
+                    src="/assets/imgs/placeholders/img-16.jpg"
+                    alt="Photo"
+                    className="rounded-md shadow-md max-w-full h-auto"
+                    // width={600}
+                    // height={400}
+                    style={{ maxWidth: "100%", height: "auto" }}
+                  />
+                </div> */}
+
+                {/* <img
+                  src="/assets/imgs/placeholders/img-18.jpg"
+                  alt="Photo"
+                  className="rounded-md shadow-md max-w-full h-auto"
+                  // width={600}
+                  // height={400}
+                  style={{ maxWidth: "100%", height: "auto" }}
+                /> */}
+                <Image
+                       src="https://media.istockphoto.com/id/2122218565/pl/zdj%C4%99cie/sk%C5%82adana-kartka-w-pobli%C5%BCu-jasnoniebieskiej-tiulowej-tkaniny-i-kremowych-kwiat%C3%B3w-na-talerzu.jpg?s=612x612&w=0&k=20&c=5EVPyb9tlrYaBTQ-brxDZ-gPAzUEUIy6x_PB5ton4vo="
+                       alt="Img"
+                       style={{ maxWidth: "100%", height: "auto" }}
+                       width={600}
+                       height={400}
+                     />
+              </div>
+              <div className="w-full lg:w-1/2 text-center lg:text-left px-4">
+                <h3
+                 className="text-xl font-bold font-heading mb-2"
+//   style={{ color: 'rgb(96, 165, 250)' }}
+                //   className="text-xl font-bold font-heading mb-2"
+                  // style={blueColor}
+                >
+                  Weddy – The Ultimate Wedding Event App
+                </h3>
+                <br/>
+                <div className="wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+  <p className="text-blueGray-400 leading-relaxed">
+    Weddy is a digital wedding platform that blends tradition with
+    technology, making it easier to plan, celebrate, and share your special
+    day in real time.
+  </p>
+  <br />
+  <h4 className="text-lg font-semibold font-heading mb-2" style={{ color: 'rgb(96, 165, 250)' }}>
+    Key Features:
+    <br/>
+  </h4>
+  <br/>
+
+ 
+  <style jsx>{`
+    .custom-list li {
+      position: relative;
+      padding-left: 1.5rem;
+    }
+    .custom-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.5rem;
+      width: 0;
+      height: 0;
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-left: 10px solid #3B82F6; /* Tailwind blue-500 */
+    }
+  `}</style>
+
+  <ul className="custom-list space-y-2 text-blueGray-400 leading-relaxed">
+    <li>Easy Event Setup & Instant RSVP Tracking</li>
+    <li>Real-Time Messaging & Guest Interaction</li>
+    <li>High-Quality Live Streaming for Remote Guests</li>
+    <li>Smart Gifting with Registry & Cash Options</li>
+    <li>Live Photo & Video Sharing for Lasting Memories</li>
+  </ul>
+  <br/>
+
+  <p className="text-blueGray-400 leading-relaxed mt-4">
+    Weddy enhances every step of the wedding journey — from invitations to
+    unforgettable digital memories — making your celebration more connected,
+    inclusive, and memorable.
+  </p>
+</div>
+
+                {/* <p
+                  className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn"
+                  data-wow-delay=".2s"
+                >
+                  Weddy is an interactive digital platform that revolutionizes
+                  the way weddings are planned, celebrated, and remembered. By
+                  merging traditional wedding elements with modern technology,
+                  Weddy creates a dynamic space where hosts and guests can
+                  connect, communicate, and share the joy of the celebration in
+                  real time.
+                </p>
+                <br />
+                <h4 className="text-lg font-semibold font-heading mb-2">
+                  Key Features & Benefits:
+                </h4>
+                <ul className="list-none space-y-2 text-blueGray-400 leading-relaxed">
+                  <li>
+                    <strong>
+                      Effortless Event Creation & RSVP Management:
+                    </strong>{" "}
+                    Planning a wedding has never been easier. Hosts can quickly
+                    create a detailed event profile on Weddy, complete with
+                    venue details, date, and time. A unique invitation link is
+                    generated and shared with guests, allowing them to confirm
+                    their attendance instantly. This streamlined RSVP process
+                    helps you keep track of your guest list and plan
+                    accordingly.
+                  </li>
+                  <li>
+                    <strong>Real-Time Communication Hub:</strong> Weddy fosters
+                    an engaging environment by enabling guests to interact
+                    through in-app messaging, comments, and discussion threads.
+                    Whether sharing excitement or coordinating details, this
+                    real-time communication tool ensures that everyone remains
+                    connected and informed throughout the event.
+                  </li>
+                  <li>
+                    <strong>Live Streaming Capabilities:</strong> For friends
+                    and family who cannot attend in person, Weddy offers a
+                    high-quality live streaming feature. This ensures that all
+                    loved ones, regardless of their physical location, can
+                    witness the celebration as it unfolds, making your wedding a
+                    truly inclusive event.
+                  </li>
+                  <li>
+                    <strong>Flexible Gifting Options:</strong> The app
+                    integrates versatile gifting features, including options for
+                    monetary contributions and curated gift registries. This
+                    allows guests to choose the perfect gift according to the
+                    couple’s preferences, simplifying the process of gift
+                    selection and ensuring that each contribution is meaningful.
+                  </li>
+                  <li>
+                    <strong>Interactive Media Sharing:</strong> Capture every
+                    memorable moment and share it instantly with your guests.
+                    Weddy’s media sharing feature allows photos and videos to be
+                    uploaded in real time, creating a digital scrapbook that all
+                    attendees can view, comment on, and cherish long after the
+                    event is over.
+                  </li>
+                </ul>
+                <br />
+                <p className="text-blueGray-400 leading-relaxed mt-4">
+                  Weddy transforms the traditional wedding experience by
+                  combining digital innovation with the timeless charm of
+                  personal celebrations. This app not only simplifies event
+                  planning and guest management but also enhances the overall
+                  experience by fostering real-time connections and creating a
+                  lasting digital memory of your special day.
+                </p> */}
+              </div>
+            </div>
+          </div>
+        </section>
+{/*  */}
                 <section className="py-20 bg-blueGray-50" id="how-we-work">
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
