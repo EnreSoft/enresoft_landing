@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <>
             <Head>
-                <title>Enresoft - NextJs Tailwind CSS Landing Page</title>
+                <title>EnreSoft Landing Page</title>
             </Head>
 
             {!loading ? (
