@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <>
             <Head>
+                <meta name="google-site-verification" content="g-jVjfMUYjv5VpifIOV7mso5lGhIV-7KbDNS5i32uzc" />
                 <title>EnreSoft Landing Page</title>
             </Head>
 
